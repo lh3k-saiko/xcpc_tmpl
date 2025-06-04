@@ -1,0 +1,9 @@
+[package]
+name = "xcpc_tmpl"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+clang-sys = { version = "1.8.1", features = ["clang_15_0"] }
+libc = "0.2.172"
